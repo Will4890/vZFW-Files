@@ -1,0 +1,216 @@
+;vZFW ARTCC Position File 
+
+
+;//////////////////////////////////////////////////////////////////////////////////////
+;Updated by William Lewis
+;//////////////////////////////////////////////////////////////////////////////////////
+ 
+;ZFW POSITION ID FILE HISTORY AVALIABLE ON GIT HUB
+
+
+
+;USE THIS FILE TO CREATE UNIQUE STATIC CONTROLLER POSITION ID'S FOR YOUR ASRC RADAR CLIENT.
+;AMENDING THIS FILE ONLY CHANGES THE WAY CONTROLLERS APPEAR TO YOU, AND DO NOT AFFECT
+;THE WAY OTHER CLIENTS SEE YOU, OR THE WAY THAT THEY SEE OTHER CONTROLLERS.
+
+;THIS FILE USES THE FOLLOWING FORMAT -->
+
+;NAME = SECTOR NAME
+;RNAME = RADIO CALLSIGN
+;FREQ = FREQUENCY MATCH FOR THIS POSITIN
+;SECID = SECTOR ID USED FOR HANDOFFS & ATC-ATC COMMS
+;ARTSTAG = POSITION SYMBOL ON THE ARTS SCOPE
+;CALLPREFIX = PREFIX MATCH FOR THIS POSITION
+;CALLSUFFIX = SUFFIX MATCH FOR THIS POSITION
+;LINE1 = FIRST LINE TO DISPLAY ON EACH KEY IN VSCS
+;LINE2 = SECOND LINE TO DISPLAY ON EACH KEY IN VSCS
+;LSQUAWK = LOW END OF SQUAWK RANGE FOR THIS POSITION
+;HSQUAWK = HIGH END OF SQUAWK RANGE FOR THIS POSITION
+
+
+;//////////////////////////////////////////////////////////////////////////////////////
+
+Relief Controllers    :Fort Worth Center:199.998:00:-:ZFW:REL:ZFW:REL
+Observers             :Fort Worth Center:199.998:00:-:ZFW:OBS:ZFW:OBS
+Instructors           :Fort Worth Center:199.998:00:-:ZFW:INS:ZFW:INS
+Mentors               :Fort Worth Center:199.998:00:-:ZFW:MEN:ZFW:MEN
+ATM  		      :Fort Worth ATM:199.998:00:-:ZFW:ATM:ZFW:ATM
+DATM		      :Fort Worth DATM:199.998:00:-:ZFW:DATM:ZFW:DATM
+Traffic Management Unit  :Fort Worth TMU:199.998:00:-:ZFW:TMU:ZFW:TMU
+
+;//////////////////////////////////////////////////////////////////////////////////////
+;ZFW ARTCC
+
+;Operations Desk
+ZFW TMU:Fort Worth TMU:199.998:TMU:C:ZFW:TMU:ZFW:TMU:0501:0577
+ZFW Flight Data:Fort Worth Flight Watch:122.000:WX:C:FTW:CTR:FTW:CTR:0501:0577
+ZFW Clearance Delivery:Fort Worth Center:124.250:CD:C:FTW:CTR:FTW:CTR:0501:0577
+
+:BONHAM
+ZFW 26 Klubb Ultra High  :Fort Worth Center:128.120:26:C:FTW:CTR:KLB-UH:26:0501:0577
+ZFW 37 Seaver Low        :Fort Worth Center:124.870:37:C:FTW:CTR:SEA-L :37:0501:0577
+ZFW 38 McAlester Low     :Fort Worth Center:132.200:38:C:FTW:CTR:MLC-L :38:0501:0577
+ZFW 41 Hugo Ultra High   :Fort Worth Center:128.120:41:C:FTW:CTR:HGO-UH:41:0501:0577
+ZFW 42 Decod High        :Fort Worth Center:134.470:42:C:FTW:CTR:DEC-H :42:0501:0577
+ZFW 48 Ardmore High      :Fort Worth Center:132.970:48:C:FTW:CTR:ARM-H :48:0501:0577
+ZFW 50 McAlester High    :Fort Worth Center:135.450:50:C:FTW:CTR:MLC-H :50:0501:0577
+ZFW 51 Choctaw Ultra High:Fort Worth Center:135.170:51:C:FTW:CTR:CHO-UH:51:0501:0577
+ZFW 53 Frisco Low        :Fort Worth Center:124.750:53:C:FTW:CTR:FRI-L :53:0501:0577
+ZFW 37 Seaver Low        :Fort Worth Center:127.600:37:C:FTW:CTR:SEA-L :37:0501:0577
+;ZFW 53 Frisco Low       :Fort Worth Center:126.770:53:C:FTW:CTR:FRI-L :53:0501:0577
+
+
+;BOWIE
+ZFW 23 Archer Ultra High :Fort Worth Center:135.270:23:C:FTW:CTR:ARC-UH:23:0501:0577
+ZFW 34 Wichita Falls Low :Fort Worth Center:133.500:34:C:FTW:CTR:SPS-L :34:0501:0577
+ZFW 35 Oklahoma City Low :Fort Worth Center:128.400:35:C:FTW:CTR:OKC-L :35:0501:0577
+ZFW 43 Cruiser Ultra High:Fort Worth Center:135.270:43:C:FTW:CTR:CZR-UH:43:0501:0577
+ZFW 47 Wichita Falls High:Fort Worth Center:124.520:47:C:FTW:CTR:SPS-H :47:0501:0577
+ZFW 49 Oklahoma City High:Fort Worth Center:132.450:49:C:FTW:CTR:OKC-H :49:0501:0577
+ZFW 75 Bowie Low         :Fort Worth Center:127.950:75:C:FTW:CTR:UKW-L :75:0501:0577
+									   
+;CEDAR CREEK								   
+ZFW 25 Union Ultra High  :Fort Worth Center:133.370:25:C:FTW:CTR:UNN-UH:25 0501:0577
+ZFW 28 El Dorado High    :Fort Worth Center:133.870:28:C:FTW:CTR:ELD-H :28:0501:0577
+ZFW 29 Donie Low         :Fort Worth Center:126.720:29:C:FTW:CTR:DON-L :29:0501:0577
+ZFW 30 Monroe Low        :Fort Worth Center:128.200:30:C:FTW:CTR:MLU-L :30:0501:0577
+ZFW 86 Paxto High        :Fort Worth Center:126.270:86:C:FTW:CTR:PAX-H :86:0501:0577
+ZFW 89 Frankston High    :Fort Worth Center:134.020:89:C:FTW:CTR:FTZ-H :89:0501:0577
+;ZFW 30 Monroe Low       :Fort Worth Center:126.320:30:C:FTW:CTR:MLU-L :30:0501:0577
+;ZFW 86 Paxto High       :Fort Worth Center:132.270:86:C:FTW:CTR:PAX-H :86:0501:0577
+									  
+									  
+;DALLAS									  
+ZFW 20 Majors Ultra High :Fort Worth Center:133.550:20:C:FTW:CTR:MJR-UH:20:0501:0577
+ZFW 27 Texarkana Low     :Fort Worth Center:123.920:27:C:FTW:CTR:TXK-L :27:0501:0577
+ZFW 46 Dallas High       :Fort Worth Center:135.750:46:C:FTW:CTR:DAL-H :46:0501:0577
+ZFW 83 Quitman Low       :Fort Worth Center:132.020:83:C:FTW:CTR:UIM-L :83:0501:0577
+ZFW 90 Texarkana High    :Fort Worth Center:126.570:90:C:FTW:CTR:TXK-H :90:0501:0577
+ZFW 96 Waco Low          :Fort Worth Center:133.300:96:C:FTW:CTR:ACT-L :96:0501:0577
+;ZFW 83 Quitman Low      :Fort Worth Center:132.850:83:C:FTW:CTR:UIM-L :83:0501:0577
+									  
+;GLEN ROSE								  
+ZFW 24 Odessa Ultra High :Fort Worth Center:128.520:24:C:FTW:CTR:ODS-UH:24:0501:0577
+ZFW 40 Midland Low       :Fort Worth Center:133.100:40:C:FTW:CTR:MAF-L :40:0501:0577
+ZFW 61 Lee High          :Fort Worth Center:120.270:61:C:FTW:CTR:LEE-H :61:0501:0577
+ZFW 62 Ednas Low         :Fort Worth Center:127.150:62:C:FTW:CTR:EDN-L :62:0501:0577
+ZFW 63 Abilene Low       :Fort Worth Center:127.450:63:C:FTW:CTR:ABI-L :63:0501:0577
+ZFW 65 Hicoe High        :Fort Worth Center:128.320:65:C:FTW:CTR:HIC-H :65:0501:0577
+ZFW 82 Wink High         :Fort Worth Center:132.070:82:C:FTW:CTR:INK-H :82:0501:0577
+;ZFW 40 Midland Low      :Fort Worth Center:133.700:40:C:FTW:CTR:MAF-L :40:0501:0577
+;ZFW 40 Midland Low      :Fort Worth Center:126.150:40:C:FTW:CTR:MAF-L :40:0501:0577
+;ZFW 62 Ednas Low        :Fort Worth Center:135.370:62:C:FTW:CTR:EDN-L :62:0501:0577
+									
+;RAIDER									
+ZFW 32 Possum Low        :Fort Worth Center:127.000:32:C:FTW:CTR:POS-L :32:0501:0577
+ZFW 55 Raider Ultra High :Fort Worth Center:125.220:55:C:FTW:CTR:RDR-UH:55:0501:0577
+ZFW 64 Lubbock Low       :Fort Worth Center:132.600:64:C:FTW:CTR:LBB-L :64:0501:0577
+ZFW 93 Turki High        :Fort Worth Center:120.770:93:C:FTW:CTR:TUR-H :93:0501:0577
+ZFW 94 Woven High        :Fort Worth Center:132.920:94:C:FTW:CTR:WOV-H :94:0501:0577
+ZFW 97 Brazos Ultra High :Fort Worth Center:132.300:97:C:FTW:CTR:BRZ-UH:97:0501:0577
+;ZFW 32 Possum Low       :Fort Worth Center:120.350:32:C:FTW:CTR:POS-L :32:0501:0577
+;ZFW 64 Lubbock Low      :Fort Worth Center:126.450:64:C:FTW:CTR:LBB-L :64:0501:0577
+;ZFW 94 Woven High       :Fort Worth Center:132.950:94:C:FTW:CTR:WOV-H :94:0501:0577
+
+;//////////////////////////////////////////////////////////////////////////////////////
+;ZHU ARTCC
+
+ZHU 38 Daisetta High     :Houston Center:126.950:H38:C:HOU:CTR:ZHU:38:4701:4777 
+ZHU 87 Eagle Lake High   :Houston Center:128.600:H87:C:HOU:CTR:ZHU:87:4701:4777
+ZHU 80 Austin Low        :Houston Center:132.150:H80:C:HOU:CTR:ZHU:80:4701:4777
+ZHU 83 Lufkin Low        :Houston Center:128.050:H83:C:HOU:CTR:ZHU:83:4701:4777
+ZHU 23 Lake Charles Low  :Houston Center:132.950:H23:C:HOU:CTR:ZHU:23:4701:4777
+ZHU 25 New Orleans Low   :Houston Center:127.650:H25:C:HOU:CTR:ZHUL:25:4701:4777
+ZHU 98 Rocksprings Low   :Houston Center:125.750:H98:C:HOU:CTR:ZHU:98:4701:4777
+ZHU 59 Corpus Christi Low:Houston Center:133.750:H59:C:HOU:CTR:ZHU:59:4701:4777			
+									   
+;//////////////////////////////////////////////////////////////////////////////////////		
+;ZME ARTCC									   
+
+ZME 05 NEL               :Memphis Center:133.650:M05:C:MEM:CTR:ZME:05:1501:1577
+ZME 04 NWL               :Memphis Center:120.070:M04:C:MEM:CTR:ZME:04:1501:1577
+ZME 15 SWL               :Memphis Center:135.300:M15:C:MEM:CTR:ZME:15:1501:1577
+ZME 13 SEL               :Memphis Center:120.800:M13:C:MEM:CTR:ZME:13:1501:1577
+ZME 63 NEH               :Memphis Center:118.870:M63:C:MEM:CTR:ZME:63:5601:5677
+ZME 22 NWH               :Memphis Center:132.550:M22:C:MEM:CTR:ZME:22:5601:5677
+ZME 45 SWH               :Memphis Center:124.820:M45:C:MEM:CTR:ZME:45:5601:5677
+ZME 46 SEH               :Memphis Center:134.770:M46:C:MEM:CTR:ZME:46:5601:5677	
+
+;//////////////////////////////////////////////////////////////////////////////////////
+;ZAB ARTCC
+
+;ZAB Northwest Area
+ZAB 38 MIALH             :Albuquerque Center:132.900:A38:C:ABQ:CTR:ZAB:38:0701:0777
+ZAB 43 DRKLO             :Albuquerque Center:128.450:A43:C:ABQ:CTR:ZAB:43:0701:0777
+
+; ZAB North Area
+ZAB 16 SANLH             :Albuquerque Center:132.800:A16:C:ABQ:CTR:ZAB:16:0701:0777
+ZAB 17 LAVLO             :Albuquerque Center:124.320:A17:C:ABQ:CTR:ZAB:17:0701:0777
+
+; ZAB East Area
+ZAB 15 BDGLO             :Albuquerque Center:127.850:A15:C:ABQ:CTR:ZAB:15:0701:0777
+ZAB 97 AMAHI             :Albuquerque Center:134.750:A97:C:ABQ:CTR:ZAB:97:0701:0777
+
+
+; ZAB Southeast Area
+ZAB 19 DMNLO             :Albuquerque Center:128.200:A19:C:ABQ:CTR:ZAB:19:0701:0777
+ZAB 63 ELPHI             :Albuquerque Center:120.970:A63:C:ABQ:CTR:ZAB:63:0701:0777
+
+; ZAB Southwest Area
+ZAB 42 GBNLO             :Albuquerque Center:126.450:A42:C:ABQ:CTR:ZAB:42:0701:0777
+ZAB 46 TUSLO             :Albuquerque Center:125.400:A46:C:ABQ:CTR:ZAB:46:0701:0777
+
+;//////////////////////////////////////////////////////////////////////////////////////
+;ZKC ARTCC
+
+ZKC 94 Vandalia High     :Kansas City Center:125.720:K94:C:KC:CTR:ZKC:94:2101:2177
+ZKC 20 Hutchinson High   :Kansas City Center:134.300:K20:C:KC:CTR:ZKC:20:2115:2132
+ZKC 62 Pioneer Low       :Kansas City Center:128.300:K62:C:KC:CTR:ZKC:62:2133:2146
+ZKC 48 Emporia Low       :Kansas City Center:127.720:K48:C:KC:CTR:ZKC:48:2147:2162
+ZKC 54 Farmington Low    :Kansas City Center:127.470:K54:C:KC:CTR:ZKC:54:2163:2177
+
+;//////////////////////////////////////////////////////////////////////////////////////
+;Abilene Approach
+
+ABI ATIS                 :Abilene ATIS:118.250:ABI:A:ABI:ATIS:ABI:ATIS:
+ABI Ground               :Abilene Ground:121.700:ABI:G:ABI:GND:ABI:GND:
+ABI Tower                :Abilene Tower:120.100:I1L:T:ABI:TWR:ABI:LOCAL:
+ABI Radar East           :Abilene Approach:125.000:I1E:E:ABI:APP:ABI:EAST:
+ABI Radar West           :Abilene Approach:127.200:I1W:W:ABI:APP:ABI:WEST:
+
+DYS ATIS		 :Dyess ATIS:000.000:DYS:D:DYS:ATIS:DYS:ATIS:
+DYS Ground		 :Dyess Ground:118.350:DYS:G:DYS:GND:DYS:GND:
+DYS Tower		 :Dyess Tower:133.000:I1D:D:DYS:TWR:DYS:LOCAL:
+
+;Altus Approach
+
+LTS ATIS                 :Altus ATIS:000.000:LTS:A:LTS:ATIS:ABI:ATIS 
+LTS Clearance            :Altus Clearance:127.200:LTS:D:LTS:APP:LTS:CD:
+LTS Ground               :Altus Ground:121.700:LTS:G:LTS:GND:LTS:GND:
+LTS Tower                :Altus Tower:120.100:I1L:L:LTS:TWR:LTS:LOCAL
+LTS Radar East           :Altus Approach:125.000:A:A:LTS:APP:LTS:APP:
+
+
+Amarillo Approach
+Austin Approach
+
+Cannon Approach
+Clinton-Sherman
+Fort Sill Approach
+Gray Approach
+Hobbs
+Longview Approach
+Lubbock Approach
+Midland/San Anjelo Approach
+Monroe Approach
+Oklahoma City Approach
+Poe Approach
+Razorback/Fort Smith Approach
+Regional Approach
+Roswell Approach
+Shepard Approach
+Shrevport Approach
+Tulsa Approach
+Vance Approach
+Waco Approach
+
