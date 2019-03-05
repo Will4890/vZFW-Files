@@ -2,7 +2,7 @@
 
 
 ;//////////////////////////////////////////////////////////////////////////////////////
-;Updated by William Lewis
+;Created by William Lewis
 ;//////////////////////////////////////////////////////////////////////////////////////
  
 ;ZFW POSITION ID FILE HISTORY AVALIABLE ON GIT HUB
@@ -191,9 +191,14 @@ LTS Tower                :Altus Tower:120.100:I1L:L:LTS:TWR:LTS:LOCAL
 LTS Radar East           :Altus Approach:125.000:A:A:LTS:APP:LTS:APP:
 
 
-Amarillo Approach
-Austin Approach
+;Amarillo Approach
+AMA A:AMA Approach:119.500:A2A:A:AMA:APP:AMA:M:2640:2657
+AMA F:AMA Approach:124.800:A2F:F:AMA:APP:AMA:F:2640:2657
+AMA T:AMA Tower:118.300:A2T:T:AMA:TWR:AMA:T:2640:2657
+AMA G:AMA Ground:121.900:AMA:G:AMA:GND:AMA:G:2640:2657
+AMA C:AMA Clearance Delivery:121.650:AMA:D:AMA:DEL:AMA:C:2640:2657
 
+Austin Approach
 Cannon Approach
 Clinton-Sherman
 Fort Sill Approach
@@ -213,4 +218,5 @@ Shrevport Approach
 Tulsa Approach
 Vance Approach
 Waco Approach
+
 
