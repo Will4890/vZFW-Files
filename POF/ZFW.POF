@@ -151,7 +151,6 @@ ZAB 17 LAVLO             :Albuquerque Center:124.320:A17:C:ABQ:CTR:ZAB:17:0701:0
 ZAB 15 BDGLO             :Albuquerque Center:127.850:A15:C:ABQ:CTR:ZAB:15:0701:0777
 ZAB 97 AMAHI             :Albuquerque Center:134.750:A97:C:ABQ:CTR:ZAB:97:0701:0777
 
-
 ; ZAB Southeast Area
 ZAB 19 DMNLO             :Albuquerque Center:128.200:A19:C:ABQ:CTR:ZAB:19:0701:0777
 ZAB 63 ELPHI             :Albuquerque Center:120.970:A63:C:ABQ:CTR:ZAB:63:0701:0777
@@ -170,6 +169,33 @@ ZKC 48 Emporia Low       :Kansas City Center:127.720:K48:C:KC:CTR:ZKC:48:2147:21
 ZKC 54 Farmington Low    :Kansas City Center:127.470:K54:C:KC:CTR:ZKC:54:2163:2177
 
 ;//////////////////////////////////////////////////////////////////////////////////////
+;Regional Appraoch
+
+ 
+D10 E:Regional Approach:125.020:E:E:REG:APP:REG:APP:2301:2337 
+D10 A:Regional Approach:133.520:A:A:REG:APP:REG:APP:2301:2337 
+D10 W:Regional Approach:119.870:W:W:REG:APP:REG:APP:2341:2377 
+D10 Y:Regional Approach:133.620:Y:Y:REG:APP:REG:APP:2341:2377 
+D10 N:Regional Approach:124.300:N:N:REG:APP:REG:APP:2301:2337 
+D10 S:Regional Approach:125.200:S:S:REG:APP:REG:APP:2301:2337 
+D10 M:Regional Approach:118.100:M:M:REG:APP:REG:APP:2341:2377 
+D10 D:Regional Approach:135.970:D:D:REG:APP:REG:APP:2341:2377 
+D10 G:Regional Approach:119.400:G:G:REG:APP:REG:APP:2341:2377 
+D10 J:Regional Approach:127.070:J:J:REG:APP:REG:APP:2341:2377 
+D10 H:Regional Approach:118.420:H:H:REG:APP:REG:APP:2341:2377 
+D10 R:Regional Approach:133.150:R:R:REG:APP:REG:APP:2341:2377 
+D10 V:Regional Approach:135.500:V:V:REG:APP:REG:APP:2341:2377 
+D10 K:Regional Approach:123.900:K:K:REG:APP:REG:APP:2341:2377 
+D10 F:Regional Approach:124.250:F:F:REG:APP:REG:APP:2341:2377 
+D10 T:Regional Approach:124.820:T:T:REG:APP:REG:APP:2341:2377 
+D10 L:Regional Approach:118.550:L:L:REG:DEP:REG:DEP:2301:2377 
+D10 Q:Regional Approach:125.120:Q:Q:REG:DEP:REG:DEP:2337:2377 
+D10 Z:Regional Approach:126.470:Z:Z:REG:DEP:REG:DEP:2337:2377 
+D10 L:Regional Approach:118.550:L:L:REG:APP:REG:APP:2301:2377 
+D10 Q:Regional Approach:125.120:Q:Q:REG:APP:REG:APP:2337:2377 
+D10 Z:Regional Approach:126.470:Z:Z:REG:APP:REG:APP:2337:2377 
+
+
 ;Abilene Approach
 
 ABI ATIS                 :Abilene ATIS:118.250:ABI:A:ABI:ATIS:ABI:ATIS:
@@ -218,5 +244,3 @@ Shrevport Approach
 Tulsa Approach
 Vance Approach
 Waco Approach
-
-
